@@ -20,7 +20,7 @@ bool Ncurses::init()
 	//
 	// VIM uses 25ms, so should you.
 	// Source: http://en.chys.info/2009/09/esdelay-ncurses/
-	ESCDELAY = 25;
+	set_escdelay(25);
 
 	refresh();   // Refresh the layout (prints whats in the layout bu
 	return true;
