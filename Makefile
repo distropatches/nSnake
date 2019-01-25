@@ -70,8 +70,8 @@ INCLUDESDIR = -I"src/" -I"deps/"
 LIBSDIR     =
 
 # Project source files
-CFILES   = $(shell find src -type f -name '*.c')
-CXXFILES = $(shell find src -type f -name '*.cpp')
+CFILES   = $(sort $(shell find src -type f -name '*.c'))
+CXXFILES = $(sort $(shell find src -type f -name '*.cpp'))
 OBJECTS  = $(CFILES:.c=.o) \
            $(CXXFILES:.cpp=.o)
 
