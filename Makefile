@@ -40,7 +40,7 @@
 # General Info
 PACKAGE = nsnake
 VERSION = 3.0.1
-DATE    = $(shell date "+%b%Y")
+DATE    = $(shell date -u -r ChangeLog "+%b%Y")
 
 # Install dirs
 PREFIX      = /usr
