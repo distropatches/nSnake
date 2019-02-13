@@ -52,6 +52,7 @@ that comes with your distro.
 | -------------- | --------------------------------- |
 | Ubuntu/Debian  | `apt-get install libncurses5-dev` |
 | Fedora         | `yum install ncurses-devel`       |
+| openSUSE       | `zypper install ncurses-devel`    |
 | Arch Linux     | _comes by default_                |
 
 If you know the means to install on other distros, [please tell me][issues].
